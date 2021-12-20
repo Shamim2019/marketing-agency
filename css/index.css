@@ -1,0 +1,5 @@
+.header-nav-item a:hover{
+    filter:brightness(30%)
+    /* textdecoration:underlined(!important) */
+    /* text align:center; */
+}
