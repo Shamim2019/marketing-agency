@@ -5,3 +5,12 @@ h1{
     color: chartreuse;
     font-size: medium;
 }
+/* .Aboutus{
+    text-align: center;
+    word-wrap: break-word;
+} */
+  :hover{
+   height: 1px; 
+   color: blue;
+   background-color: brown;
+}  
