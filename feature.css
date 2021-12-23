@@ -1,0 +1,94 @@
+body{
+    font-family: sans-serif;
+}
+/* .menu-bar{
+    background-image: url(./images-assets/nav-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+} */
+.menu-bar{
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none; 
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-bar ul li a:hover
+{
+    color: red;
+    border-bottom: brown;
+
+}
+.sub-menu-1{
+    display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;  
+    position: absolute;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 80px;
+    padding: 10px;
+    border-bottom: 2px solid red;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.about-us{
+    background-image: url(./images-assets/cars.jpg);
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.cell{
+    width: 33%;
+    height: 450px;
+    margin: 0 8px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.cell img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.carousel-item .carousel-caption{
+    background-color: chartreuse;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    height: 25%;
+    width: 30%;
+    padding-top: 2px;
+
+}
+.carousel-item .carousel-caption h3, p{
+    text-align: center;
+}
+.carousel-caption{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
