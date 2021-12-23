@@ -1,5 +1,7 @@
-.header-nav-item a:hover{
-    filter:brightness(30%)
-    /* textdecoration:underlined(!important) */
-    /* text align:center; */
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: chartreuse;
+    font-size: medium;
 }
