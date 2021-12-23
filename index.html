@@ -26,10 +26,7 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">About us</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"></a>
-        </li>
-        <!-- <li class="nav-item dropdown"> -->
+         <!-- <li class="nav-item dropdown">  -->
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                   Solutions
@@ -66,12 +63,161 @@
     </div>
   </div>
 </nav>
+<div class="nav-info-items d-none d-lg-flex text-light">
+    <!-- single info -->
+    <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+        <span class="info-icon mx-lg-3"><i class="fas fa-phone"></i></span>
+        <p class="mb-0">+254799017912 /92151788</p>
+    </div>
+    <!-- end of single info -->
+    <!-- single info -->
+    <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart"><i class="fas fa-shopping-cart"></i>(<span class="total-count"></span>)</button> -->
+    </div>
+</div>
+</div>
+</nav>
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+   <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel">My Favorites Orders</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+          </button>
+       </div>
+       <div class="modal-body">
+          <table class="show-cart table">
+
+          </table>
+          <div>Total price: $0 <span class="total-cart"></span></div>
+         </div>
+          <div class="modal-footer">
+          <button class="btn btn-primary"><a href="checkout" class="text-light">CheckOut</a></button>
+          <button class="clear-cart  btn-btn danger">Clear Cart</button>
+      </div> 
+    </div>
+   </div>
+  </div>
+<!--Start of header-->
+ <header class="head_section">
+  <div class="text-center">
+  <h1 class="pt-4 text-light"></h1>
+  <h1 class="pt-4 text-light">.</h1>
+  <div class="pt-4">
+   <!-- <a href="order" class="btn banner-link text-uppercase my-2">Order Now</a> -->
+   <p></p>
+  </div>
+</div>
+</header>
+<!--About us Section-->
+<section class="bg-transparent" id="#about">
+<h1 class="text-center pt-4">About Us</h1>
+<div class="text-center pt-4">
+    <p>
+        MOGO - best car financing terms
+        Get vehicle financing in Kenya on any used car at one of the lowest interest rates offered by microfinance in Kenya.
         
+         
+        
+        Our car finance service covers up to 80% of the car’s value regardless of age and model and you also enjoy a convenient repayment period of up to 60 months. You can get your new car in 24 hours for as low as 20,000 KES per month.
+        
+         
+        
+        Acquire your personal car, commercial vehicle, auto for Uber or any other usage by either finding your car of choice with our online auto portal, at a car dealership or by yourself.
+        
+         
+        
+        Just fill the application form online. You will be contacted shortly by MOGO representative. After being approved for a loan you can visit MOGO’s offices which are located in Nairobi, Mombasa, Nakuru, Eldoret & Kisumu to sign a contract.</p>
+</section>
+<section class="bg-dark bg-gradient-light text-light mt-4" id="our-services">
+  <h1 class="text-center pt-4 font-weight-bold">Our Services</h1>
+    <div class="container mx-auto p-4">
+     <div class="row">
+       <div class="col-sm">
+           <!--Card 1-->
+              <div class="card" style="width: 18rem;">
+               <div class="card-body text-dark">
+               
+                   <h5 class="card-title">car loans</h5>
+                   <p class="card-text">At MOGO, what we do is offer Used Car Financing in Kenya. The Company offers long term loans, up to 60 months with the most flexible and convenient repayment method possible. We give loans of up to 80% of the market value of your car. Auto loans are for any age, make & model cars. Fill out the form online on our website and get your personal car fast and easy!</p>
+                   <a href="#" class="btn btn-primary">Read More</a>
+               </div>
+                </div>
+               </div>
+       <div class="col-sm">
+           <!--Card 2-->
+           <div class="card" style="width: 18rem;">
+               <div class="card-body text-dark">
+                   <h5 class="card-title">logbook loans</h5>
+                   <p class="card-text">Get your logbook loan paid within 24 hours! You can secure quick financing easily with us. We provide you with a loan up to 80% of the market value of your car. The loan can last for as long as 5 years at a reasonable rate of interest. With our logbook loan, you can continue using your car for the whole duration of the loan. The maximum amount you can get from our company is 1,500,000 KES with a minimum of 100,000 KES.</p>
+                   <a href="#" class="btn btn-primary">Read More</a>
+               </div>
+           </div>
+       </div>
+       <div class="col-sm">
+           <!--Card 3-->
+           <div class="card" style="width: 18rem;">
+               <div class="card-body text-dark">
+                   <h5 class="card-title">Boda Boda loans</h5>
+                   <p class="card-text">Boda boda loans enable our customers to have access to funds with which they can secure a Motorcycle. With our boda boda loan, you get to ride a new motorcycle by simply depositing a down payment of KSh 15,000 and paying as little as KSh 350 per day. You can choose a repayment period of 12, 15 or 18 months. Loans are processed quickly - drive your new boda on the same day you apply for a loan.</p>
+                   <a href="#" class="btn btn-primary">Read More</a>
+               </div>
+           </div>
+       </div>
+   </div>
+ </div>
+</section>
+<!--Gallery + carousel-->
+<section>
+ 
+<!--Items-->
+<div class="container max-auto pt-4" id="order">
+<h2 class="text-center font-weight-bold">Order Now</h2> 
+<div class="row">
+    <div class="col-sm">
+          <!--Card 1-->
+          <div class="card" style="width: 18rem;">
+            <img src="./car image 2.jpeg">
+            <div class="card-body text-dark text-center">
+                  <h5 class="card-title"></h5>
+                  <h5 class="font-italic"> </h5>
+                  <!-- <a href="" data-name="" data-price="500" class="add-to-cart btn btn-primary"><i class="fas fa-shopping-cart"></i></a> -->
+              </div>
+        
+              </div>
+           </div>
+      <div class="col-sm">
+          <!--Card 2-->
+          <div class="card" style="width: 18rem;">
+              <img src="./car image.jpeg">
+              <div class="card-body text-dark text-center">
+                  <h5 class="card-title"></h5>
+                  <h5 class="font-italic"> </h5>
+                  <!-- <a href="" data-name="" data-price="540" class="add-to-cart btn btn-primary"><i class="fas fa-shopping-cart"></i></a> -->
+              </div>
+          </div>
+      </div>
+      <div class="col-sm">
+          <!--Card 3-->
+          <div class="card" style="width: 18rem;">
+              <img src="./car imge 3.jpeg">
+              <div class="card-body text-dark text-center">
+                  <h5 class="card-title"></h5>
+                  <h5 class="font-italic"> </h5>
+                  <!-- <a href="" data-name="car" data-price="700" class="add-to-cart btn btn-primary"><i class="fas fa-shopping-cart"></i></a> -->
+              </div>
+          </div>
+      </div>
+   </div>
+  </div>
+</section> 
+
+  
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
-    
+
   </body>
 </html>
