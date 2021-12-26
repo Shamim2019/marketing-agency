@@ -54,6 +54,7 @@ body{
 .about-us{
     background-image: url(./images-assets/cars.jpg);
     background-size: cover;
+    height: 400px;
 }
 *{
     margin: 0;
@@ -92,3 +93,64 @@ body{
     font-size: xx-large;
 }
 
+.about-us h2{
+    color: white;
+    top: 20%;
+    position: absolute;
+    font-size: xx-large;
+}
+/*contuct us*/
+.contact-us{
+    background-color: black;
+    color: white;
+}
+.loans{
+    background-color: #cbd1cc;
+    /* height: 400px; */
+}
+.loans .container h1{
+    color: #030930 ;
+}
+.loans .container .loan-type h2{
+    color: white;
+}
+.loans .container .loan-type{
+    display: flex;
+    justify-content: space-between;
+}
+.container .car-loan{
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container .car-loan h2{
+    background-color: #616362;
+    height: 130px;
+    margin-top: 0;
+}
+.container .car-loan p{
+    border-radius: 30px;
+    border-color: chartreuse;
+    border-style: solid;
+    color: chartreuse;
+    height: 2.5em;
+    margin-top: 150px;  
+    width: 200px; 
+    margin-left: 40px; 
+}
+.why-mogo{
+   margin-top: 200px;
+}
+#why-mogo{
+    height: 600px;
+    background-color:#cbd1cc ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.col-md-4 .why-mogo h2{
+    color: #030930;
+}
