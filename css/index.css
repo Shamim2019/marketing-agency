@@ -5,12 +5,49 @@ h1{
     color: chartreuse;
     font-size: medium;
 }
+/* body{ */
+    
+/* } */
 /* .Aboutus{
     text-align: center;
     word-wrap: break-word;
 } */
-  :hover{
-   height: 1px; 
-   color: blue;
-   background-color: brown;
-}  
+  /* :hover{
+   height: 21px; 
+   color:wheat; 
+    background-color: whitesmoke; 
+}    */
+
+.para{
+    text-align: center;
+    text-decoration: underline;
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font: optional;
+    font-weight: 2000;
+    font-size: large;
+}
+table, th, td {
+    border:1px solid black;
+  }
+  h5{
+      text-align: left;
+      font-size: larger;
+      /* background-image: url(./Screenshot\ from\ 2021-12-23\ 18-36-56.png); */
+  }
+  p1{
+      text-size-adjust: auto;
+  }
+.container-fluid{
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+.p{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-color: blue;
+    color: cornflowerblue;
+    /* text-wrap:nowrap; */
+}
