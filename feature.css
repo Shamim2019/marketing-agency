@@ -154,3 +154,192 @@ body{
 .col-md-4 .why-mogo h2{
     color: #030930;
 }
+
+/* home styles*/
+/* finance calc*/
+.finance-calc{
+    background-color:#cbd1cc ;
+    width: 400px;
+    border-radius: 8px;
+    position: absolute;
+    right: 10%;
+    top: 30%
+}
+.finance-calc{
+    padding: 20px;
+}
+
+.finance-calc h2{
+    
+    color: #07135f;
+}
+.finance-calc .car-value{
+    display: flex;
+    justify-content: space-between;
+}
+.finance-calc .car-value span{
+    position: absolute;
+    right: 10%;
+    top: 18.5%;
+}
+.finance-calc .car-value input{
+    width: 45%;
+    height: 3em;
+    border-radius: 8px;
+    border-color: rgb(167, 163, 163);
+    border-style: solid;
+    padding: 20px;
+    font-weight: bold;
+}
+.finance-calc .car-value p{
+    font-weight: bold;
+}
+.finance-calc .payment{
+    display: flex;
+    justify-content: space-between;
+}
+.finance-calc h3{
+    color: #07135f;
+}
+.finance-calc .name-details{
+    display: flex;
+    justify-content: space-between;
+}
+.finance-calc button{
+    color: white;
+    border-radius: 30px;
+    height: 3em;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 100%;
+    
+    margin-top: 10px;
+    border-style: none;
+    background-color:rgb(110, 196, 24) ;
+}
+.finance-calc .payment p{
+    font-weight: bold;
+}
+.finance-calc .payment-2{
+    display: flex;
+    justify-content: space-between;
+    font-size:small;
+}
+.finance-calc .name-details input{
+    height: 3em;
+    width: 95%;
+    height: 3em;
+    border-radius: 8px;
+    border-color: rgb(167, 163, 163);
+    border-style: solid;
+    padding: 20px;
+    font-weight: bold;
+}
+.finance-calc .name-details p{
+    float: left;
+}
+.finance-calc .phone p{
+    float: left;
+}
+.finance-calc .phone input{
+    width: 100%;
+    height: 3em;
+    border-radius: 8px;
+    border-color: rgb(167, 163, 163);
+    border-style: solid;
+    padding: 20px;
+    font-weight: bold;
+}
+.consent{
+    display: none;
+}
+
+/*home-desc*/
+.home-desc{
+    background-color: chartreuse;
+    padding: 30px;
+    height: 250px;
+}
+/*car financing*/
+
+.container .car-finance h2{
+    color: #07135f;
+    font-weight: bold;
+    text-align: center;
+}
+.container .row .col-md-6 .car-finance-desc h2{
+    color: #07135f;
+}
+/*type of loans*/
+.car-loan-bg{
+    background-color:#cbd1cc ;
+}
+.container .row .loan-header h2{
+    color: #07135f;
+    text-align: center;
+}
+.container .row .col-md-4 .car-loans{
+    background-color: white;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 8px;
+}
+.container .row .col-md-4 .car-loans h3{
+    color: white;
+    height: 150px;
+    background-color: rgb(122, 126, 122);
+    text-align: center;
+    margin: 0;
+    padding-top: 20%;
+}
+.container .row .col-md-4 .car-loans p{
+    padding: 8px;
+    text-align: center;
+}
+.container .row .col-md-4 .car-loans button{
+    color: rgb(110, 196, 24) ;
+    border-radius: 30px;
+    height: 3em;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 90%;    
+    margin-top: 10px;
+    margin-left: 17px;
+    border-style: solid;
+    border-color:rgb(110, 196, 24)  ;
+    
+}
+.vehicles{
+    background-color: white;
+}
+.vehicles .container h3{
+    text-align: center;
+    color: #07135f;
+    font-weight: bold;
+    
+}
+.vehicles .container .main-carousel .cell .discount p{
+    position: absolute;
+    top: -6.4px;
+    left: 20%;
+    margin-top: 2%;
+    background-color: rgb(233, 121, 10);
+    color: white;
+    height: 2.1em;
+    padding: 6px 30px 0px 30px;
+    font-weight: bold;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.vehicles .container .main-carousel .cell .car-details{
+    float: left;
+    margin: 0;
+}
+.vehicles .container .main-carousel .cell .car-details .type{
+    float: left;
+    font-weight: bold;
+}
+.vehicles .container .main-carousel .cell .car-details .price{
+    color: yellowgreen;
+}
+
