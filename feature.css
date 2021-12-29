@@ -142,17 +142,20 @@ body{
     width: 200px; 
     margin-left: 40px; 
 }
-.why-mogo{
-   margin-top: 200px;
+/*map*/
+.map-home{
+    background-color: white;
 }
-#why-mogo{
-    height: 600px;
-    background-color:#cbd1cc ;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.map-home .container .row .col-md-6 .mogo-map-desc h2{
+    color: #07135f;
 }
-.col-md-4 .why-mogo h2{
-    color: #030930;
+.map-home .container .row .col-md-6 .mogo-map-desc {
+    background-color: #d1d6d4;
+    height: 500px;
+    top: 0;
+    position: absolute;
+    right: 5%;
+    
 }
 
 /* home styles*/
@@ -341,5 +344,18 @@ body{
 }
 .vehicles .container .main-carousel .cell .car-details .price{
     color: yellowgreen;
+}
+.vehicles .container .btn button{
+    color: rgb(110, 196, 24) ;
+    border-radius: 30px;
+    height: 3.5em;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 100%;    
+    margin-top: 30px;
+    margin-left: 160%; 
+    margin-bottom: 30px;   
+    border-style: solid;
+    border-color:rgb(110, 196, 24)  ;
 }
 
