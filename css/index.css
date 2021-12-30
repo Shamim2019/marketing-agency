@@ -5,9 +5,9 @@ h1{
     color: chartreuse;
     font-size: medium;
 }
-/* body{ */
-    
-/* } */
+ body{ 
+    background-image: url(./map.jpg);
+} 
 /* .Aboutus{
     text-align: center;
     word-wrap: break-word;
@@ -17,7 +17,10 @@ h1{
    color:wheat; 
     background-color: whitesmoke; 
 }    */
-
+ .footer{
+     background-color: black;
+    color:black;
+ }
 .para{
     text-align: center;
     text-decoration: underline;
@@ -50,4 +53,25 @@ table, th, td {
     text-decoration-color: blue;
     color: cornflowerblue;
     /* text-wrap:nowrap; */
+}
+h3{
+    text-align: center;
+    flex-wrap: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-size: medium;
+    color: blue;
+}
+.training{
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+#image{
+    align-items: stretch;
+    justify-content: flex-start;
+    size: 10px;
+    width:100px;
+    height: 200px;
 }
