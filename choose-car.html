@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--carousel-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="feature.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="home.html">Home</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#"> Contact</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="#">Asset Financing</a></li>
+                        <li><a href="#">Car Leasing</a></li>
+                        <li><a href="#">Sales Agents Network</a></li>
+                    </ul>
+                </div>
+            </li>c
+            <li><a href="#">Services</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Car Financing</a></li>
+                        <li><a href="#">Logbook Loans</a></li>
+                        <li><a href="#">Boda Loans</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images-assets/3.jpg" alt="Los Angeles" width="100%" height="700">
+                <div class="carousel-caption">
+                  <h3>Los Angeles</h3>
+                  <p>We had such a great time in LA!</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                  <img src="./images-assets/4.jpg" alt="Los Angeles"  width="100%" height="700">
+                <div class="carousel-caption">
+                  <h3>A car is a gift you deserve</h3>
+                  <p>Get it now</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                  <img src="./images-assets/5.jpeg"  alt="Los Angeles" width="100%" height="700">
+                <div class="carousel-caption">
+                  <h3>LET YOU CAR TAKE CARE OF YOUR HOLIDAY</h3>
+                  <p>Get money now!</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                  <img src="./images-assets/boda.jpg" alt="Los Angeles" width="100%" height="700">
+                <div class="carousel-caption">
+                  <h3>Boda Boda Loans in Kenya</h3>
+                  <p>Secure your own motorcycle</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                  <img src="./images-assets/cars.jpg" alt="Los Angeles" width="100%" height="700">
+                <div class="carousel-caption">
+                  <h3>Cars for<br> sale from <br>MOGO Partners</h3>
+                  <p>Choose your car</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!--calculator-->
+          <div class="finance-calc">
+            <h2>Car finance calculator</h2>
+            <br>
+            <div class="car-value">
+              <p>Car value</p>
+              <input type="text" placeholder="499,999"> <span>KES</span>
+            </div><br>
+            <div class="car-value">
+              <p>Loan term</p>
+              <input type="text" placeholder="Month">
+            </div>
+            <br>
+            <div class="payment">
+              <p>Monthly payments </p>
+              <p>30,125 KES </p>
+            </div><br>
+            <div class="payment-2">
+              <p>First Deposit </p>
+              <p>172,500 KES <span> <a href="change">change</a> </span> </p>
+            </div>
+            <h3>Apply for a loan</h3><br>
+            
+            <div class="name-details">
+              <div class="name">
+                <p>Full name</p>
+                <input type="text">
+              </div>
+              <div class="name">
+                <p>National ID Number</p>
+                <input type="text">
+              </div>              
+            </div>
+            <br>
+            <div class="phone">
+              <p>Phone Number</p>
+              <input type="text">
+            </div>
+            
+           
+            
+              <div class="consent">
+                <h2>consent</h2>
+                <p>By entering into this agreement, I authorize Mogo Auto Ltd (and other companies in Mogo Finance group) to access and query my credit information from any of the licensed CRBs and to receive credit reports\/scores from any of the licensed CRBs on behalf of myself in order to assess my credit worthiness, wherever and whenever I apply for a new facility and during the persistence of such facilities in order to assist Mogo Auto Ltd (and other companies in Mogo Finance group) to accomplish its objectives and to enforce its rights under this agreement. I further consent to my credit information being shared with the licensed credit reference bureaus. This consent shall not be withdrawn during the period in which my application is pending to or I have an outstanding balance with Mogo Auto Ltd. This consent shall automatically terminate upon clearance of all existing loans by myself to Mogo Auto Ltd and as long as I have no outstanding facilities with Mogo Auto Ltd.</p>
+              </div>
+              <button>SUBMIT APPLICATION</button>
+            </div>
+          </div>
+
+
+
+
+
+    <div class="home-desc">
+        <p>Finance up to 80% of any car's value regardless of age or make</p>
+        <p>Loan term up to 60 months</p>
+        <p>Fast process - get your loan in 24 hours</p>
+    </div>
+    <div class="car-loan-bg"></div>
+    <div class="container">
+      <div class="car-finance">
+        <h2>Car financing in Kenya</h2>
+      <p>Finance up to 80% of any car's value regardless of age or make!</p>
+      </div>      
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images-assets/car4-removebg-preview.png" height="auto" width="500px" alt="">
+            </div>
+            <div class="col-md-6">
+              <div class="car-finance-desc">
+                <h2>MOGO - best car financing terms</h2>
+                <p>
+                    Get vehicle financing in Kenya on any used car at one of the <strong>lowest interest rates </strong> offered by microfinance in Kenya.<br><br>
+                    
+                    Our car finance service covers up to 80% of the car’s value regardless of age and model and you also enjoy a convenient repayment period of up to 60 months. You can <strong>get your new car in 24 hours for as low as 20,000 KES per month.</strong> <br><br>
+                    
+                    Acquire your personal car, commercial vehicle, auto for Uber or any other usage by either finding your car of choice with our online auto portal, at a car dealership or by yourself.<br><br>
+                    
+                    Just fill the application form online. You will be contacted shortly by MOGO representative. After being approved for a loan you can visit MOGO’s offices which are located in <strong>Nairobi, Mombasa, Nakuru, Eldoret & Kisumu</strong>  to sign a contract.</p>
+              </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="car-loan-bg">
+      <div class="container">
+        
+        <div class="row">
+          <div class="loan-header">
+            <h2>Do you want to Finance a car, get a Logbook loan, or own a boda?</h2>
+          </div>
+           
+            <div class="col-md-4">
+              <div class="car-loans">
+                <h3>Car loans</h3>
+                <p>At MOGO, what we do is offer<br> Used Car Financing in Kenya. The <br>Company offers long term loans, <br>up to 60 months with the most <br>flexible and convenient repayment<br> method possible. We give loans of<br> up to 80% of the market value of <br>your car. Auto loans are for any<br> age, make & model cars. Fill out<br> the form online on our website and <br>get your personal car fast and <br>easy!</p>   <br><br>             
+                <button>I WANT A CAR</button><br><br>
+              </div>
+                
+            </div>
+            <div class="col-md-4">
+              <div class="car-loans">
+                <h3>Logbook loans</h3>
+                <p>Get your logbook loan paid within <br>24 hours! You can secure quick<br> financing easily with us. We <br>provide you with a loan up to 80% <br>of the market value of your car.<br> The loan can last for as long as 5 <br>years at a reasonable rate of<br> interest. With our logbook loan,<br> you can continue using your car <br>for the whole duration of the loan. <br>The maximum amount you can get<br> from our company is 1,500,000 <br>KES with a minimum of 100,000<br> KES.</p>               
+                <button>I WANT MONEY</button><br><br>
+              </div>
+                
+            </div>
+            <div class="col-md-4">
+              <div class="car-loans">
+                <h3>Boda Boda Loans</h3>
+                <p>Boda boda loans enable our<br> customers to have access to<br>funds with which they can secure<br> a Motorcycle. With our boda boda<br> loan, you get to ride a new<br> motorcycle by simply depositing a<br> down payment of KSh 15,000 and <br>paying as little as KSh 350 per day. <br>You can choose a repayment<br> period of 12, 15 or 18 months.<br> Loans are processed quickly - <br>drive your new boda on the same<br> day you apply for a loan.</p>   <br>           
+                <button>I WANT A BODA!</button><br><br>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+    </div>
+    <div class="vehicles">
+      <div class="container">
+        <h3>Can't find your dream car?</h3>
+             <p>MOGO has got you covered. At MOGO car portal, you are presented with a life-changing opportunity to choose any auto of your choice. Currently, there are many car offers, cutting across various brands and models. All just for you.</p>
+             <div class="main-carousel">
+              <div class="cell"> <img src="./images-assets/toyota-rav4.jpg" height="350px" width="500px"  alt="">
+              <div class="discount">
+                <p>DISCOUNT</p>
+              </div>
+              <div class="car-details">
+                <div class="type">
+                  <p>TOYOTA RAV4</p>
+                </div>
+                <div class="price">
+                  <p>57,838 KES/month</p>
+                </div>
+              </div>            
+              </div>
+              <div class="cell"> <img src="./images-assets/fielder.jpg" height="350px" width="500px"  alt="">
+                <div class="discount">
+                  <p>DISCOUNT</p>
+                </div>
+                <div class="car-details">
+                  <div class="type">
+                    <p>TOYOTA LAND CRUISER</p>
+                  </div>
+                  <div class="price">
+                    <p>59,102 KES/month</p>
+                  </div>
+                </div>            
+                </div>
+                <div class="cell"> <img src="./images-assets/hillux.jpg" height="350px" width="500px"  alt="">
+                  <div class="discount">
+                    <p>DISCOUNT</p>
+                  </div>
+                  <div class="car-details">
+                    <div class="type">
+                      <p>TOYOTA HILUX</p>
+                    </div>
+                    <div class="price">
+                      <p>55,940 KES/month</p>
+                    </div>
+                  </div>            
+                  </div>
+                  <div class="cell"> <img src="./images-assets/fielder-w.jpg" height="350px" width="500px"  alt="">
+                    <div class="discount">
+                      <p>DISCOUNT</p>
+                    </div>
+                    <div class="car-details">
+                      <div class="type">
+                        <p>TOYOTA FIELDER</p>
+                      </div>
+                      <div class="price">
+                        <p>34,715 KES/month</p>
+                      </div>
+                    </div>            
+                    </div>
+                    <div class="cell"> <img src="./images-assets/outlander.jpeg" height="350px" width="500px"  alt="">
+                      <div class="discount">
+                        <p>DISCOUNT</p>
+                      </div>
+                      <div class="car-details">
+                        <div class="type">
+                          <p>MITSUBISHI OUTLANDER</p>
+                        </div>
+                        <div class="price">
+                          <p>52,145 KES/month</p>
+                        </div>
+                      </div>            
+                      </div>
+                      <div class="cell"> <img src="./images-assets/honda-fit.jpg" height="350px" width="500px"  alt="">
+                        <div class="discount">
+                          <p>DISCOUNT</p>
+                        </div>
+                        <div class="car-details">
+                          <div class="type">
+                            <p>HONDA FIT</p>
+                          </div>
+                          <div class="price">
+                            <p>26,309 KES/month</p>
+                          </div>
+                        </div>            
+                        </div>
+                          <div class="cell"> <img src="./images-assets/honda-cr-v.jpg" height="350px" width="500px"  alt="">
+                            <div class="discount">
+                              <p>DISCOUNT</p>
+                            </div>
+                            <div class="car-details">
+                              <div class="type">
+                                <p>HONDA CR-V</p>
+                              </div>
+                              <div class="price">
+                                <p>57,089 KES/month</p>
+                              </div>
+                            </div>            
+                            </div>
+                            <div class="cell"> <img src="./images-assets/toyota-pr.jpg" height="350px" width="500px"  alt="">
+                              <div class="discount">
+                                <p>DISCOUNT</p>
+                              </div>
+                              <div class="car-details">
+                                <div class="type">
+                                  <p>TOYOTA PREMIO</p>
+                                </div>
+                                <div class="price">
+                                  <p>39,277 KES/month</p>
+                                </div>
+                              </div>            
+                              </div>
+                              <div class="cell"> <img src="./images-assets/toyota-voxy.webp" height="350px" width="500px"  alt="">
+                                <div class="discount">
+                                  <p>DISCOUNT</p>
+                                </div>
+                                <div class="car-details">
+                                  <div class="type">
+                                    <p>TOYOTA VOXY</p>
+                                  </div>
+                                  <div class="price">
+                                    <p>38,139 KES/month</p>
+                                  </div>
+                                </div>            
+           </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="btn">
+          <button><p>VIEW ALL DEALS</p></button>
+        </div>
+      </div>
+    </div>
+    <div class="map-home">
+      <div class="container" id="why-mogo">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="map">
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">google map html embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:669px;}</style></div></div>
+                </div>
+            </div> 
+            <div class="col-md-6">
+                <div class="mogo-map-desc">
+                    <h2>Car financing company you <br>can trust</h2>
+                <p>
+                  MOGO operates in more than 17 countries, mainly in Europe, Asia &<br> Africa and has more than 100,000 happy customers worldwide!<br> <br> 
+
+                  We are a world-class financial company that specializes in used car<br>  financing in Kenya. Our company also offers logbook loans and boda <br> boda (motorcycle) loans to its potential customers in a convenient,<br>  quick, and easy way.<br> <br> 
+                  
+                  Our firm prides itself with the ability to process loans within 24 <br> hours, while also offering a long-term repayment period which can<br>  last for 60 months.<br> <br> 
+                  
+                  In a bid to make our services very convenient for our customers, we<br>  are also one of the few financial companies in the world that<br>  finances cars of any age, make or model and gives its customers the<br>  privilege to choose an auto from trusted dealerships through our<br>  online car portal.<br> <br> 
+                  
+                  Contact us today and learn more about our various financial<br>  products.<br> 
+                </p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    </div>
+    
+    
+    
+            
+        
+    <div class="contact-us">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <p>info@mogo.co.ke</p>
+                  <p>0768 469 112</p>
+                  <p>Call centre working hours:</p>
+                  <p>Monday - Friday: 7 AM - 7 PM</p>
+                  <p>Saturday: 9 AM - 1 PM</p>
+                  <p>Sunday: Closed</p>
+                  <p>info@mogo.co.ke</p>
+              </div> 
+              <div class="col-md-4">
+                  <p>Car Loans</p>
+                  <p>LogBook Loans</p>
+                  <p>Boda Loans</p>
+                  <p>Choose a car</p>
+                  <p>Asset Financing</p>
+                  <p>Flexi Loans</p>
+                  <p>Whistleblowing</p>
+              </div>  
+              <div class="col-md-4">
+                  <p>About Us</p>
+                  <p>FAQ</p>
+                  <p>Privacy policy</p>
+                  <p>Sales Agents Network</p>
+                  <p>Payment information</p>
+              </div> 
+              </div>
+          </div>
+      </div>
+  </div>   
+  <footer>
+      <div class="container">
+          <p>Mogo Auto LTD (physical location at Prestige Plaza, Ngong road, Nairobi) is part of the Mogo Finance group, founded in 2012. MOGO group specializes in consumer finance for used cars. Our offices operate in Europe, Asia & Africa. The rapid development of MOGO is possible by the presence of stable equity capital, high-performance technological solutions and effective management of the loan portfolio. In Kenya, MOGO provides financing to passenger cars, logbook loans & boda financing. Loan amounts ranges from 100,000 to 1,500,000 Kenyan Shillings for a period of 6 to 60 months. MOGO interest rate is fixed at 2.5% per month. Depending on the loan amount, period and the vehicle you wish to purchase, the annual percentage rate ranges from 26.4% to 92.5%. Today, the company manages an aggregate portfolio of more than 150 million euros in loans of up to 7 years. More than 100,000 customers have chosen our company.</p>
+          <div class="copyright">
+              <p>© 2021 Mogo</p>
+          </div>
+      </div>                   
+  </footer>    
+   
+   
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="feature.js"></script>
+</body>
+</html>
