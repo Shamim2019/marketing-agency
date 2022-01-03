@@ -1025,4 +1025,63 @@ footer .container p{
   }
 
 
+  /*logbook loans*/
+  .logbook-bg{
+      background-image: url(./images-assets/bg3.jpeg);
+      height: 560px;
+      background-size: cover;
+  }
+  .logbook-lns-desc{
+      background-color: rgb(127, 202, 14);
+  }
+  .logbook-lns-desc p{
+      color: white;
+      font-weight: bold;
+      text-align: left;
+      margin-left: 20px;
+  }
+  .logbook-lns-desc p i{
+    padding-right: 10px;
+}
+.log-book-loans{
+    background-color: lightgray;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+.log-book-loans h2{
+    text-align: center;
+    color: #07135f;
+    font-weight: bold;
+}
+.log-book-loans .container .logbook-desc  p{
+        text-align: left;   
+    }
+.log-book-loans .container .logbook-desc  h2{
+        text-align: left;   
+    }
+/*about us*/
+.container .about-desc p{
+    text-align: left;
+}
+
+/*map about us*/
+.mogo-map-desc{
+    width:32.4%;
+    background-color: lightgray;
+    padding-left:70px ;
+    padding-right: 30px;
+    padding-top: 190px;
+}
+.mogo-map-desc p{
+    text-align: left;
+}
+.mogo-map-desc h2{
+    color: #07135f;
+    font-weight: bold;
+}
+.map-about-pg .container .map-content-about{
+    display: flex;
+    justify-content: space-between;
+}
+
 
