@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
 body{
     font-family: sans-serif;
 }
@@ -166,7 +168,7 @@ body{
     border-radius: 8px;
     position: absolute;
     right: 10%;
-    top: 30%
+    top: 6%
 }
 .finance-calc{
     padding: 20px;
@@ -358,4 +360,669 @@ body{
     border-style: solid;
     border-color:rgb(110, 196, 24)  ;
 }
+
+
+
+
+
+/* choose a car*/
+.car-loans-bg{
+    background-color: lime;
+    height: 450px;
+}
+.car-loans-bg .container h1{
+    color: white;
+    margin-top: 20%;
+    line-height: 60px;
+    font-weight: bold;
+}
+.car-loans-bg .container img{
+    float: right;
+}
+
+.how-it-works{
+    background-color: rgb(115, 204, 27);
+    height: 490px;
+    padding: 2px;
+
+}
+.how-it-works h2{
+    color: white;
+    text-align: center;
+}
+
+.how-it-works .container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.how-it-works .container .description-steps .number-steps{
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+   
+}
+.find-car{
+    background-image: url(./images-assets/car-loans.jpg);
+    text-align: center;
+    background-size: cover;
+    padding: 10px;
+    height: 100%;
+}
+.find-car .recieve-deals{
+    background-color: white;
+    max-width: 370px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.find-car .recieve-deals{
+    position: relative;
+    left: 40%;
+    margin-top: 50px;
+}
+.find-car .recieve-deals input{
+    width: 100%;
+    padding: 5px;
+    height: 2em;
+    border-color: rgb(177, 173, 173);
+    border-radius: 8px;
+}
+.find-car .recieve-deals h3{
+    font-weight: bold;
+    text-align: center;
+}
+.find-car .recieve-deals p{
+    font-size: small;
+}
+.find-car .recieve-deals button{
+    color: white;
+    border-radius: 30px;
+    height: 3em;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80%;    
+    margin-top: 10px;
+    border-style: none;
+    background-color:rgb(110, 196, 24) ;
+}
+.find-car .glyphicon-envelope{
+    color: rgb(68, 192, 19);
+    height: 50px;
+    width: 50px;
+    background-color: lightgray;
+    padding-top: 6px;
+    border-radius: 50%;
+    font-size: xx-large;
+    border-color: rgb(68, 192, 19);
+    border-style: solid;
+    position: relative;
+}
+.find-car .glyphicon-envelope{
+    top: -40px;
+    font-weight: bold;
+}
+.contact-us .container{
+    padding: 20px;
+}
+.contact-us .container .col-md-4 .info{
+    border-right-style: solid;
+    border-right-color:lightgray ;
+    padding-right: 30px;
+    border-width: 1px;
+
+}
+
+/*car financing*/
+.car-financing-bg{
+    background-image: url(./images-assets/car-financing-bg.jpeg);
+    height: 450px;
+    background-size: cover;
+}
+.steps .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.steps .container h2{
+    color: #07135f;
+    font-weight: bold;
+}
+.steps .container .step-icon .number p{
+    height: 25px;
+    width: 25px;
+    background-color: #356ee9;
+    padding-top:4.5px ;
+    border-radius: 50%;
+    color: white;
+    font-size: xx-small;
+}
+.steps .container .step-icon .number{
+    position: absolute;
+    margin-top: -10px;
+}
+.steps .container .step-icon .icon p{
+    height: 70px;
+    width: 70px;
+    background-color: #c8cacf;
+    padding-top:16px ;
+    border-radius: 50%;
+    color: #356ee9;
+    font-size: xx-large;
+}
+.steps .container .dots p{
+    color: #494b50;
+    margin-top: 110%;
+}
+.steps .container .dots p i{
+    padding: .7px;
+    font-size: xx-small;
+    color: #356ee9;
+}
+.steps .container button{
+    color: rgb(110, 196, 24) ;
+    border-radius: 30px;
+    height: 3.4em;color: rgb(110, 196, 24) ;
+    border-radius: 30px;
+    height: 3em;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 90%;    
+    margin-top: 10px;
+    margin-left: 17px;
+    border-style: solid;
+    border-color:rgb(110, 196, 24)  ;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 30%;    
+    margin-top: 10px;
+    margin-left: 17px;
+    border-style: solid;
+    border-color:rgb(110, 196, 24)  ;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.conditions{
+    background-color: rgb(218, 224, 218);
+    padding: 5%;
+    
+}
+.conditions .container .row .col-md-6 .condition-details{
+    background-color: white;
+    width: 50%;
+    padding: 5%;
+    height: 350px;
+    float: right;
+}
+.conditions .container .row .col-md-6{
+    justify-content: center;
+}
+.conditions .container .row .col-md-6 .condition-details p{
+    float: left;
+    padding-top:17px ;
+}
+.conditions .container .row .col-md-6 .condition-details p i{
+    color: rgb(110, 196, 24) ;;
+}
+.conditions .container .row .col-md-6 .condition-details .icon-condition p i{   
+    color: blue;
+    font-weight: bold;
+    float: left;
+}
+.conditions .container .row .col-md-6 .condition-details h3{
+    float: left;
+}
+
+.conditions .container button{
+    color: white;
+    border-radius: 30px;
+    height: 3em;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 30%;    
+    margin-top: 10px;
+    border-style: none;
+    background-color:rgb(110, 196, 24) ;
+    margin-left: 40%;
+}
+
+/*boda loans*/
+
+.boda-boda-loans-bg{
+    background-color:rgb(110, 196, 24) ;
+    height: 470px;
+}
+.boda-boda-loans-bg .container .row h1{
+    color: white;
+}
+.boda-boda-loans-bg .container .row p{
+    float: left;
+}
+.main-terms {
+    background-color: rgb(218, 224, 218);
+}
+.main-terms .container h2{
+    text-align: center;
+    color: #07135f;
+    font-weight: bold;
+}
+.main-terms .container .main-terms-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.main-terms .container .main-terms-desc p i{
+    color: yellowgreen;
+    padding-right: 20px;
+}
+.container .boda-loan-mogo h2{
+    text-align: center;
+    color: #07135f;
+    font-weight: bold;
+}
+.container .how-to-col{
+    margin-left: 70px;
+}
+.container .how-to-col .how-to{
+    border-color: lightgray;
+    width: 100%;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: -70px; */
+    padding-bottom: 0px;
+    border-width: 1px;
+    border-radius: 8px;
+    font-size: small;
+    margin-bottom: 5px;
+
+
+}
+.container .how-to-col .how-to:hover{
+    border-color: rgb(13, 170, 13);
+}
+.container .how-to-col .how-to h3{
+    font-weight: bold;
+    color: rgb(77, 74, 74);
+    font-size: small;
+}
+.container .how-to-col .how-to h3:hover{
+    color: rgb(13, 170, 13);
+}
+.container .how-to-col .how-to p{
+    text-align: left;
+    font-size: small;
+}
+.container .row-boda{
+    display: flex;
+} 
+.container .row-boda .motorbike-loan{
+    max-height: 600px;
+}
+.container .row-boda .motorbike-loan img{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.terms .container .terms-header h2{
+    color: #07135f;
+    font-weight: bold;
+    text-align: center;
+}
+.terms .container .terms-header p{
+    text-align: center;
+}
+.terms .container .terms-desc p{
+    text-align: left;
+    padding-top: 10px ;
+}
+.terms .container .terms-desc p i{
+    color: rgb(13, 170, 13);
+    padding-right: 20px;
+}
+.terms .container .terms-desc{
+    margin-left:40% ;
+    position: relative;
+    font-weight: bold;
+    font-size: small;
+}
+.terms{
+    background-color: lightgray;
+}
+.boda-map .col-md-6 .map-desc-boda h2{
+    color: #07135f;
+    font-weight: bold;
+}
+.boda-map .col-md-6 .map-desc-boda .selection .city{
+    display: flex;
+    justify-content: right;
+}
+.boda-map .col-md-6 .map-desc-boda .selection .city p{
+    font-weight: bold;
+    padding-right: 23px;
+}
+
+.boda-map .col-md-6 .map-desc-boda .selection .model{
+    display: flex;
+    justify-content: right;
+}
+.boda-map .col-md-6 .map-desc-boda .selection .model p{
+    font-weight: bold;
+    padding-right: 10px;
+}
+.boda-map .col-md-6 .map-desc-boda {
+    width: 35%;
+    float: right;
+    margin-top: 15%;
+}
+.boda-map .col-md-6 .map-desc-boda .selection .city .form-control {
+   width: 40%;
+   height: 2em;
+}
+.boda-map .col-md-6 .map-desc-boda .selection .model .form-control{
+    width: 40%;
+   height: 2em;
+}
+.mogo-leader{
+    height:440px ;
+}
+.mogo-leader .boda-leader-bg .col-md-6{
+    background-color: lime;
+    
+}
+.mogo-leader .col-md-6 .bodaboda-desc {
+    margin: 100px 10px 0px 10px;
+}
+.mogo-leader .col-md-6 .bodaboda-desc h2{
+    color: #07135f;
+    font-weight: bold;
+}
+.mogo-leader .col-md-6 .bodaboda-desc p{
+    font-size: small;
+    text-align: left;
+    
+}
+.boda-map{
+    height: 450px;
+}
+.contact-us .container .row .col-md-4 p{
+    text-align: left;
+}
+footer .container p{
+    text-align: left;
+}
+.contact-us .container .row .col-md-4 .contact-border{
+    border-right-color: lightgray;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+.contact-us .container .row .col-md-4 .contact-border p i{
+    margin-right: 10px;
+}
+.contact-us .container .row .col-md-4 .contact-border p .fa-envelope{
+    color: white;
+    height:24px;
+    width: 24px ;
+    background-color: rgb(37, 236, 37);
+    text-align: center;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-top: 6px;
+    border-radius: 50%;
+    font-size: x-small;
+}
+.contact-us .container .row .col-md-4 .contact-border p .fa-clock-o{
+    color: white;
+    height:24px;
+    width: 24px ;
+    /* background-color: rgb(37, 236, 37); */
+    text-align: center;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-top: 6px;
+    border-radius: 50%;
+    font-size: medium;
+    color: rgb(37, 236, 37);
+}
+.contact-us .container .row .col-md-4 .contact-border p .fa-phone{
+    color: white;
+    height:24px;
+    width: 24px ;
+    background-color: rgb(37, 236, 37);
+    text-align: center;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-top: 6px;
+    border-radius: 50%;
+    font-size: x-small;
+}
+.contact-us .container .row .col-md-4 .contact-border p .fa-instagram{
+    color: white;
+    height:24px;
+    width: 24px ;
+    /* background-color: rgb(37, 236, 37); */
+    text-align: center;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-top: 6px;
+    border-radius: 50%;
+    font-size: small;
+}
+.contact-us .container .row .col-md-4 .contact-border p .fa-facebook-f{
+    color: white;
+    height:24px;
+    width: 24px ;
+    /* background-color: rgb(37, 236, 37); */
+    text-align: center;
+    font-weight: bold;
+    /* padding-left: 2px; */
+    padding-top: 6px;
+    border-radius: 50%;
+    font-size: small;
+}
+.copyright .container h4{
+    text-align: center;
+}
+
+/*contact page*/
+.contact-section{
+    background-image: url(./images-assets/bg-contact.jpeg);
+    background-size: cover;
+    color: white;
+    height: 450px;
+}
+.contact-section .container .contact-section-desc{
+    width: 30%;
+}
+.contact-section .container .contact-section-desc p{
+    text-align: left;
+    font-weight: bold;
+}
+.contact-section .container .contact-section-desc h1{
+    font-weight: bold;
+}
+.contact-section .container .contact-section-desc p i{
+    background-color: rgb(11, 196, 11);
+    color: white;
+    height: 20px;
+    width: 20px;
+    padding-left: 5.5px;
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: x-small;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.mogo-name-desc{
+    background-color: #1a328a;
+    width: fit-content;
+    color: white;
+    font-size: small;
+    padding: 20px 30px 150px 30px;
+    margin-left: 40%;
+    margin-top: -20%;
+
+}
+.mogo-name-desc h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}
+.mogo-name-desc .desc-section-1{
+    display: flex;
+}
+.mogo-name-desc .desc-section-2{
+    display: flex;
+}
+.mogo-name-desc .desc-section-2 .part-2 p{
+    text-align: left;
+}
+.mogo-name-desc .desc-section-2 .part-2 {
+    margin-left: 76px;
+}
+.mogo-name-desc .desc-section-1 h5{
+    margin-left: 50px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+
+/*visit us*/
+.visit-us .container .check-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.visit-us .container .check-buttons .check-car{
+    display: flex;
+    justify-content: space-around;
+}
+.visit-us .container .map-contact-content .branches{
+    background-color: #f5f7f7;
+    width: 340px;
+    border-radius: 7px;
+    padding: 14px 14px 0px 14px;
+}
+.visit-us .container .map-contact-content .branches .name h4{
+    font-weight: bold;
+}
+.visit-us .container .map-contact-content .branches .name p{
+    text-align: left;
+}
+.visit-us .container .map-contact-content .branches .branch-desc{
+    display: flex;
+    margin-left:30px ;
+    justify-content: space-between;
+}
+.visit-us .container .map-contact-content .branches .branch-desc .time p{
+    text-align: left;
+    font-weight:lighter;
+    font-size: small;
+}
+
+.visit-us .container .map-contact-content .branches .branch-desc .view-map p{
+    text-align: left;
+    font-weight:lighter;
+    font-size: small;
+}
+.visit-us .container .map-contact-content{
+    display: flex;
+    justify-content: space-between;
+}
+.visit-us .container .overflow{
+    overflow-y:scroll;
+    height: 550px;
+}
+.visit-us .container .map-contact-content .branches .branch-desc .view-map p i{
+    color: rgb(38, 38, 214);
+    padding-right: 10px;
+}
+.visit-us .container .map-contact-content .branches .branch-desc .time p i{
+    color: rgb(38, 38, 214);
+    padding-right: 10px;
+    font-size: medium;
+}
+.visit-us .container .map-contact-content .branches .branch-desc .time p .fa-phone{
+    background-color: rgb(11, 196, 11);
+    color: white;
+    height: 20px;
+    width: 20px;
+    padding-left: 5.5px;
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: x-small;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/*check buttons*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 27px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #1d79a1;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .visit-us .container h3{
+    color: #07135f;
+    font-weight: bold;
+  }
+
+
 
